@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4x4OPS.fr</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #cd7f32;
+    }
+    main {
+      padding: 2rem;
+      background-color: #fff7ed;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #3b1f00;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #5c4033;
+      margin-top: 1rem;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-content {
+      padding: 1rem;
+    }
+    .product-title {
+      font-size: 1.1rem;
+      color: #2d3748;
+    }
+    .product-price {
+      color: #8b5e3c;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    .product button {
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0.5rem;
+      background-color: #8b5e3c;
+      color: white;
+      border: none;
+      border-radius: 0.375rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>4x4OPS.fr</h1>
+    <p>Accessoires pour 4x4, Off-Road & Chasse — livraison directe chez vous</p>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://img.alicdn.com/imgextra/i2/2207303212712/O1CN01XsQWRy2Cj4WfEWTLO_!!2207303212712.jpg" alt="Pelle pliante">
+        <div class="product-content">
+          <div class="product-title">Pelle pliante tactique</div>
+          <div class="product-price">29.90€</div>
+          <button>Ajouter au panier</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="https://img.alicdn.com/imgextra/i4/2210059493090/O1CN01ByiQhf1BshBoSgP5X_!!2210059493090.jpg" alt="Tapis de coffre">
+        <div class="product-content">
+          <div class="product-title">Tapis de coffre 4x4 anti-boue</div>
+          <div class="product-price">34.90€</div>
+          <button>Ajouter au panier</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="https://img.alicdn.com/imgextra/i3/2206936723436/O1CN01AfmA2U1v9c28C1IjK_!!2206936723436.jpg" alt="Kit LED Offroad">
+        <div class="product-content">
+          <div class="product-title">Kit éclairage LED Offroad 2pcs</div>
+          <div class="product-price">59.90€</div>
+          <button>Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
