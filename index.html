@@ -7,22 +7,27 @@
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background-color: #cd7f32;
+      font-family: 'Trebuchet MS', sans-serif;
+      background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f1f1;
     }
     main {
+      backdrop-filter: brightness(0.85);
       padding: 2rem;
-      background-color: #fff7ed;
       min-height: 100vh;
       text-align: center;
     }
     h1 {
-      font-size: 2.5rem;
-      color: #3b1f00;
+      font-size: 3.5rem;
+      background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     }
     p {
       font-size: 1.2rem;
-      color: #5c4033;
+      color: #ccc;
       margin-top: 1rem;
     }
     .product-grid {
@@ -32,10 +37,14 @@
       margin-top: 2rem;
     }
     .product {
-      background: white;
+      background: rgba(0, 0, 0, 0.6);
       border-radius: 1rem;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
       overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+    .product:hover {
+      transform: scale(1.02);
     }
     .product img {
       width: 100%;
@@ -46,11 +55,11 @@
       padding: 1rem;
     }
     .product-title {
-      font-size: 1.1rem;
-      color: #2d3748;
+      font-size: 1.2rem;
+      color: #e2e2e2;
     }
     .product-price {
-      color: #8b5e3c;
+      color: #a57c4f;
       font-weight: bold;
       margin-top: 0.5rem;
     }
@@ -58,7 +67,7 @@
       margin-top: 1rem;
       width: 100%;
       padding: 0.5rem;
-      background-color: #8b5e3c;
+      background-color: #5c4423;
       color: white;
       border: none;
       border-radius: 0.375rem;
@@ -69,7 +78,7 @@
 <body>
   <main>
     <h1>4x4OPS.fr</h1>
-    <p>Accessoires pour 4x4, Off-Road & Chasse — livraison directe chez vous</p>
+    <p>Accessoires pour 4x4, Off-Road & Chasse — Ambiance baroudeur ancestrale</p>
     <div class="product-grid">
       <div class="product">
         <img src="https://img.alicdn.com/imgextra/i2/2207303212712/O1CN01XsQWRy2Cj4WfEWTLO_!!2207303212712.jpg" alt="Pelle pliante">
